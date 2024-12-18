@@ -31,7 +31,7 @@ const Team = () => {
       </div>
 
       {/* Team Cards */}
-      <div className="max-w-[1240px] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-6 px-6 max-w-6xl mx-auto">
+      <div className="max-w-[1240px] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-6 px-6 max-w-6xl ">
         {teamMembers.map((member, index) => (
           <div  className="relative bg-white rounded-lg shadow-lg overflow-hidden">
             {/* Image Section */}

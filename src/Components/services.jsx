@@ -1,5 +1,4 @@
 import React from "react";
-import { FaAppleAlt } from "react-icons/fa";
 import { PiSirenThin } from "react-icons/pi";
 import { FcSalesPerformance } from "react-icons/fc";
 
