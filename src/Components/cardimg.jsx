@@ -29,7 +29,7 @@ const cardimg = () => {
               At Gitin Suri, we are passionate about connecting people with
               their dream farmhouses. With a deep understanding of the real
               estate market and a commitment to excellence, we specialize in
-              providing top-notch services tailored to our clients' needs
+              providing top-notch services tailored to our clients needs
             </p>
 
             {/* Features */}
@@ -76,7 +76,7 @@ const cardimg = () => {
                 </div>
                 <h3 className="font-bold">Sale of Farmhouses</h3>
                 <p className="text-gray-500 text-sm">
-                  If you’re planning to sell your farmhouse, we’ll connect you
+                  If you&apos;re planning to sell your farmhouse, well connect you
                   with the right buyers and ensure
                 </p>
               </div>
