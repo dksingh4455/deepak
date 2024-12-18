@@ -1,4 +1,5 @@
 // components/ProductSection.js
+import Image from "next/image";
 export default function ProductSection() {
     return (
       <section className="bg-white py-[20px]">
@@ -14,8 +15,10 @@ export default function ProductSection() {
                 key={index}
                 className="relative bg-white rounded-lg shadow-lg overflow-hidden"
               >
-                <img
+                <Image
                   src="/5.jpg" // Replace with actual image path
+                  width={400}
+                  height={400}
                   alt="Organic Vegetables"
                   className="w-full object-cover"
                 />

@@ -1,5 +1,4 @@
 import React from "react";
-import { FaAppleAlt } from "react-icons/fa";
 import { BiPurchaseTag } from "react-icons/bi";
 import { FcCableRelease } from "react-icons/fc";
 import { GiBuyCard } from "react-icons/gi";

@@ -1,22 +1,27 @@
-import Image from 'next/image';
-import { FaTwitterSquare,FaFacebookF,FaLinkedinIn,FaInstagram  } from "react-icons/fa";
+import Image from "next/image";
+import {
+  FaTwitterSquare,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Team = () => {
   const teamMembers = [
     {
-      name: 'Farmer Name',
-      designation: 'Designation',
-      image: '/farmer1.jpg', // Replace with your image path
+      name: "Farmer Name",
+      designation: "Designation",
+      image: "/farmer1.jpg", // Replace with your image path
     },
     {
-      name: 'Farmer Name',
-      designation: 'Designation',
-      image: '/farmer2.jpg', // Replace with your image path
+      name: "Farmer Name",
+      designation: "Designation",
+      image: "/farmer2.jpg", // Replace with your image path
     },
     {
-      name: 'Farmer Name',
-      designation: 'Designation',
-      image: '/farmer3.jpg', // Replace with your image path
+      name: "Farmer Name",
+      designation: "Designation",
+      image: "/farmer3.jpg", // Replace with your image path
     },
   ];
 
@@ -24,7 +29,9 @@ const Team = () => {
     <section className="bg-white py-12">
       {/* Header Section */}
       <div className="text-center mb-10 py-[20px]">
-        <h3 className="text-sm font-semibold text-green-500 uppercase">The Team</h3>
+        <h3 className="text-sm font-semibold text-green-500 uppercase">
+          The Team
+        </h3>
         <h2 className="text-3xl font-bold text-gray-800">
           We Are Professional Organic Farmers
         </h2>
@@ -33,16 +40,17 @@ const Team = () => {
       {/* Team Cards */}
       <div className="max-w-[1240px] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-6 px-6 max-w-6xl ">
         {teamMembers.map((member, index) => (
-          <div  className="relative bg-white rounded-lg shadow-lg overflow-hidden">
+          <div className="relative bg-white rounded-lg shadow-lg overflow-hidden">
             {/* Image Section */}
             <div className="relative h-72">
               <Image
-                src="/team-1.jpg"
-                alt={member.name}
-                layout="fill"
-                className="object-cover"
+                src="/2.jpg"
+                alt="Fresh Vegetables"
+                width={1000}
+                height={1000}
+                quality={100}
+                style={{ width: "100%", height: "100vh" }}
               />
-              
             </div>
 
             {/* Social Media Sidebar */}
@@ -52,30 +60,40 @@ const Team = () => {
                 className="text-white text-lg hover:scale-110 transform transition"
                 aria-label="Twitter"
               >
-               <FaTwitterSquare size={35} className='bg-white text-orange-500 rounded-full p-2'/>
+                <FaTwitterSquare
+                  size={35}
+                  className="bg-white text-orange-500 rounded-full p-2"
+                />
               </a>
               <a
                 href="#"
                 className="text-white text-lg hover:scale-110 transform transition"
                 aria-label="Facebook"
               >
-              <FaFacebookF size={35} className='bg-white text-orange-500 rounded-full p-2'/>
+                <FaFacebookF
+                  size={35}
+                  className="bg-white text-orange-500 rounded-full p-2"
+                />
               </a>
               <a
                 href="#"
                 className="text-white text-lg hover:scale-110 transform transition"
                 aria-label="LinkedIn"
               >
-            <FaLinkedinIn size={35} className='bg-white text-orange-500 rounded-full p-2' />
-
+                <FaLinkedinIn
+                  size={35}
+                  className="bg-white text-orange-500 rounded-full p-2"
+                />
               </a>
               <a
                 href="#"
                 className="text-white text-lg hover:scale-110 transform transition"
                 aria-label="Instagram"
               >
-                <FaInstagram  size={35} className='bg-white text-orange-500 rounded-full p-2'/>
-
+                <FaInstagram
+                  size={35}
+                  className="bg-white text-orange-500 rounded-full p-2"
+                />
               </a>
             </div>
 

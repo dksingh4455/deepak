@@ -8,10 +8,10 @@ const cardimg = () => {
           {/* Left Side - Image */}
           <div className="grid justify-center p-4 md:p-0">
             <Image
-              src="/6.jpg"
+              src="/5.jpg"
               alt="Farmer with organic produce"
-              width={1000}
-              height={1000}
+              width={400}
+              height={400}
               className="rounded"
               style={{ width: "100%", height: "auto" }}
             />

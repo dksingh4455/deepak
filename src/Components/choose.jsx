@@ -3,7 +3,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { GrSafariOption } from "react-icons/gr";
 import { GrUserExpert } from "react-icons/gr";
 import { FcCallback } from "react-icons/fc";
-
+import Image from "next/image";
 const WhyChooseUs = () => {
   return (
     <div className="bg-green-500 py-10">
@@ -42,8 +42,10 @@ const WhyChooseUs = () => {
               or leasing for a business venture, our team is here to assist you
               every step of the way
             </p>
-            <img
+            <Image
               src="/6.jpg" // Replace with your image path
+              width={400}
+              height={400}
               alt="Vegetables"
               className="mx-auto"
             />

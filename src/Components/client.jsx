@@ -4,7 +4,7 @@
 // components/Testimonial.js
 "use client"
 import { useState } from "react";
-
+import Image from "next/image";
 export default function Testimonial() {
   const testimonials = [
     {
@@ -59,8 +59,10 @@ export default function Testimonial() {
         {/* Testimonial Card */}
         <div className=" relative bg-green-500 rounded-lg text-white p-8 shadow-lg max-w-lg text-center">
           <div className="absolute left-1/2 transform -translate-x-1/2 -top-12 w-24 h-24 rounded-full border-4 border-white overflow-hidden">
-            <img
+            <Image
               src="/1.jpg"
+              width={400}
+              height={400}
               alt={currentTestimonial.name}
               className="w-full h-full object-cover"
             />

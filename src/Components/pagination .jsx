@@ -22,7 +22,7 @@ export default function FullScreenCarousel() {
               alt="Fresh Vegetables"
               width={1000}
               height={1000}
-              className="fil"
+              
               quality={100}
               style={{ width: "100%", height: "100vh" }}
             />

@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const card = () => {
   return (
     <>
-      <div >
+     
         <div className=" max-w-[1240px] p-4 md:p-0  mx-auto gap-0 grid grid-cols-1 md:grid-cols-2 "
        >
           <div className="bg-[#34AD54] bg-cover  p-6 md:p-[55px]  text-white "  style={{
@@ -45,7 +45,7 @@ const card = () => {
             </Link>
           </div>
         </div>
-      </div>
+     
     </>
   );
 };
