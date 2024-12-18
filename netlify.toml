@@ -1,4 +1,9 @@
 [build]
-  base = "gitinsuri"  # Set to the correct folder
-  publish = "out"  # Or your build output directory (e.g., "build" for React)
-  command = "npm run build"  # Or your build command
+  base = "gitinsuri"   # Correct subfolder path
+  publish = "out"      # Or use ".next" if that's the output folder
+  command = "npm run build"   # Correct build command for your app
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
