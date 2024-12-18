@@ -1,0 +1,4 @@
+[build]
+  base = "gitinsuri"  # Set to the correct folder
+  publish = "out"  # Or your build output directory (e.g., "build" for React)
+  command = "npm run build"  # Or your build command
