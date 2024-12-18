@@ -17,21 +17,23 @@ export default function FullScreenCarousel() {
         {/* Slide 1 */}
         <SwiperSlide>
           <div className="relative w-full md:h-screen pt-[20px]">
-          <Image
+            <Image
               src="/2.jpg"
               alt="Fresh Vegetables"
               width={1000}
               height={1000}
               className="fil"
               quality={100}
-              style={{width:"100%" ,height:"100vh"}}
+              style={{ width: "100%", height: "100vh" }}
             />
-            
+
             {/* Overlay */}
             <div className="max-w-[940px] mx-auto absolute inset-0  flex flex-col justify-center items-center text-center px-4 md:items-start md:text-left md:px-16">
-              <p className="text-white text-base md:text-lg font-medium">Why Choose Us</p>
+              <p className="text-white text-base md:text-lg font-medium">
+                Why Choose Us
+              </p>
               <h1 className="text-white text-3xl md:text-6xl font-bold mt-4 leading-snug">
-              Explore Premium Farmhouse <br /> Services with Gitin Suri
+                Explore Premium Farmhouse <br /> Services with Gitin Suri
               </h1>
               <div className="mt-6 flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0">
                 <button className="bg-green-600 text-white px-6 py-3 text-base md:text-lg rounded hover:bg-green-700 transition">
@@ -53,13 +55,14 @@ export default function FullScreenCarousel() {
               alt="Fresh Vegetables"
               width={1000}
               height={1000}
-              className="fil"
               quality={100}
-              style={{width:"100%" , height:"100vh"}}
+              style={{ width: "100%", height: "100vh" }}
             />
             {/* Overlay */}
             <div className="max-w-[940px] mx-auto  absolute inset-0  flex flex-col justify-center items-center text-center px-4 md:items-start md:text-left md:px-16">
-              <p className="text-white text-base md:text-lg font-medium">Fresh Vegetables</p>
+              <p className="text-white text-base md:text-lg font-medium">
+                Fresh Vegetables
+              </p>
               <h1 className="text-white text-3xl md:text-6xl font-bold mt-4 leading-snug">
                 Fresh Vegetables <br /> Delivered Daily
               </h1>
