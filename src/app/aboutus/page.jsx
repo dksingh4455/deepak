@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from '../../components/Navbar'; // Update based on actual file structure
-import Cardimg from '../../components/Cardimg';
-import Counter from '../../components/Counter';
-import Review from '../../components/Review';
+import Navbar from '../../components/navbar';
+import Cardimg from '../../components/cardimg';
+import Counter from '../../components/counter';
+import Review from '../../components/review';
+
 
 const page = () => {
   return (
