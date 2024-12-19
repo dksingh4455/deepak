@@ -1,0 +1,8 @@
+# Format: <source-path> <destination-path> [status-code]
+
+# Redirect all routes to index.html for single-page apps (SPA)
+/* /index.html 200
+
+# Example custom redirects
+/old-page /new-page 301
+/about-us /about 302
