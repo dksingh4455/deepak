@@ -1,6 +1,6 @@
 import React from "react";
 import Cardimg from "@/components/cardimg";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 import Counter from "@/components/counter";
 import Review from "@/components/review";
 
