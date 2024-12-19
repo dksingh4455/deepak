@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./src/components/Navbar";
-import Cardimg from "./src//components/cardimg";
-import Counter from "./src//components/counter";
-import Review from "./src//components/review"
+import Cardimg from "./src/components/cardimg";
+import Counter from "./src/components/counter";
+import Review from "./src/components/review"
 const page = () => {
   return (
     <>
