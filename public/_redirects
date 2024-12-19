@@ -1,8 +1,9 @@
-# Format: <source-path> <destination-path> [status-code]
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
-# Redirect all routes to index.html for single-page apps (SPA)
-/* /index.html 200
-
-# Example custom redirects
-/old-page /new-page 301
-/about-us /about 302
+[[redirects]]
+  from = "/old-page"
+  to = "/new-page"
+  status = 301
