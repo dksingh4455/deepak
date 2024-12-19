@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",  // This sets the base directory to the root of the project
     "paths": {
-      "@/*": ["src/*"]  // This alias maps '@' to the 'src' directory
+      "@/*": ["./src/*"]
     }
   }
 }
-
