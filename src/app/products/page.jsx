@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar";
 import Review from "@/components/review";
 import Choose from "@/components/choose"
 import Cardsnew from "@/components/cardsnew"

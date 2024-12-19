@@ -1,6 +1,6 @@
 
 import React from "react";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar";
 import Services from "@/components/services"
 import Servicecard from "@/components/servicecard";
 import CLient from "@/components/client"
