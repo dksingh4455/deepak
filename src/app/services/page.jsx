@@ -1,9 +1,9 @@
 
 import React from "react";
-import Navbar from "@/Components/Navbar";
-import Services from "@/Components/services"
-import Servicecard from "@/Components/servicecard";
-import CLient from "@/Components/client"
+import Navbar from "@/components/Navbar";
+import Services from "@/components/services"
+import Servicecard from "@/components/servicecard";
+import CLient from "@/components/client"
 const page = () => {
   return (
     <>

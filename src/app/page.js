@@ -1,16 +1,16 @@
-import Navbar from "@/Components/Navbar";
+import Navbar from "@/components/Navbar";
 
-import Pagination from "@/Components/pagination ";
-import Card from "@/Components/card";
-import Cardimg from "@/Components/cardimg";
-import Counter from "@/Components/counter";
-import Services from "@/Components/services";
-import Choose from "@/Components/choose";
-import Cardsnew from "@/Components/cardsnew";
-import CLient from "@/Components/client";
+import Pagination from "@/components/pagination ";
+import Card from "@/components/card";
+import Cardimg from "@/components/cardimg";
+import Counter from "@/components/counter";
+import Services from "@/components/services";
+import Choose from "@/components/choose";
+import Cardsnew from "@/components/cardsnew";
+import CLient from "@/components/client";
 
-import Review from "@/Components/review";
-import Servicecard from "@/Components/servicecard";
+import Review from "@/components/review";
+import Servicecard from "@/components/servicecard";
 export default function Home() {
   return (
     <>

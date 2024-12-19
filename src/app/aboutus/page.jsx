@@ -1,8 +1,8 @@
 import React from "react";
-import Cardimg from "@/Components/cardimg";
-import Navbar from "@/Components/Navbar";
-import Counter from "@/Components/counter";
-import Review from "@/Components/review";
+import Cardimg from "@/components/cardimg";
+import Navbar from "@/components/Navbar";
+import Counter from "@/components/counter";
+import Review from "@/components/review";
 import Image from "next/image";
 const page = () => {
   return (

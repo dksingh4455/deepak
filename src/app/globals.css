@@ -1,8 +1,10 @@
-:root {
-  --background: #ffffff; /* Example background color */
-  --foreground: #000000; /* Example text color */
-}
-
+/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Define the CSS variables */
+:root {
+  --background: #f0f0f0; /* Set your background color */
+  --foreground: #333333; /* Set your foreground color */
+}
