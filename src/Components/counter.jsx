@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react";
 
-const CounterSection = () => {
+const Counter = () => {
   const [hasStarted, setHasStarted] = useState(false);
 
   const counters = [
@@ -72,4 +72,4 @@ const AnimatedCounter = ({ target }) => {
   return count;
 };
 
-export default CounterSection;
+export default Counter;

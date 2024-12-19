@@ -6,7 +6,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
-const Team = () => {
+const Review = () => {
   const teamMembers = [
     {
       name: "Farmer Name",
@@ -99,4 +99,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Review;

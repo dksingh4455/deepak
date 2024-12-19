@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const cardimg = () => {
+const Cardimg = () => {
   return (
     <>
       <div className="max-w-[1240px] mx-auto  py-[20px] ">
@@ -88,4 +88,4 @@ const cardimg = () => {
   );
 };
 
-export default cardimg;
+export default Cardimg;
