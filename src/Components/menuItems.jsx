@@ -7,7 +7,7 @@ const menuItems = [
     },
     {
         title:"ABOUT",
-        link:"/aboutus"
+        link:"/about"
     },
     {
         title:"SERVICE",
