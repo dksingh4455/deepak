@@ -5,7 +5,7 @@ import Counter from "@/components/counter";
 import Review from "@/components/review";
 
 
-const page = () => {
+const Aboutus = () => {
   return (
     <>
       <Navbar />
@@ -47,4 +47,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Aboutus;
