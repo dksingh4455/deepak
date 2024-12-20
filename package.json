@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-     "postbuild": "ls -R src"
+    "postbuild": "ls -R src/components"
   },
   "dependencies": {
     "next": "15.0.3",

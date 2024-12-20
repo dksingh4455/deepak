@@ -2,7 +2,9 @@
 const config = {
   plugins: {
     tailwindcss: {},
+    autoprefixer: {}, // Adds browser-specific prefixes for CSS
   },
 };
 
 export default config;
+
