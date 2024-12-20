@@ -90,13 +90,13 @@ const Footer = () => {
           <p>
             © Your Site Name. All Rights Reserved. Designed by{" "}
             <a href="#" className="text-orange-500 hover:underline">
-              HTML Codex
+              Deepak Singh
             </a>
           </p>
           <p>
             Distributed By{" "}
             <a href="#" className="text-orange-500 hover:underline">
-              ThemeWagon
+              Deepak Singh
             </a>
           </p>
         </div>
