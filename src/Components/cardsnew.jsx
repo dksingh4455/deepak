@@ -27,7 +27,7 @@ export default function ProductSection() {
                   <h3 className="text-lg font-semibold text-gray-800">
                   Farmhouse
                   </h3>
-                  <p className="text-green-600 font-bold text-xl">$19.00</p>
+                  <p className="text-green-600 font-bold text-xl"></p>
                 </div>
               </div>
             ))}

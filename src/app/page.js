@@ -11,6 +11,7 @@ import CLient from "@/components/client";
 
 import Review from "@/components/review";
 import Servicecard from "@/components/servicecard";
+import Content from "@/components/content"
 export default function Home() {
   return (
     <>
@@ -32,6 +33,7 @@ export default function Home() {
       <Cardsnew />
       <CLient />
       <Review />
+      <Content/>
     </>
   );
 }

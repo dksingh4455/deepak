@@ -11,13 +11,13 @@ const card = () => {
           <div className="bg-[#34AD54] bg-cover  p-6 md:p-[55px]  text-white "  style={{
           backgroundImage: "url('/2.jpg')", width:"100% ", height:"auto" ,
         }}>
-            <h1 className="text-[26px] p-2">Organic Vegetables</h1>
+            <h1 className="text-[26px] p-2">Farmhouse in South Delhi
+            </h1>
             <p
               className="font-light leading-relaxed p-2
 "
             >
-              Dolor magna ipsum elitr sea erat elitr amet ipsum stet justo
-              dolor, amet lorem diam no duo sed dolore amet diam
+             If you're seeking a peaceful retreat amidst the hustle and bustle of Delhi, a farmhouse in South Delhi could be your ideal escape. With expansive green lawns, serene surroundings, and luxurious amenities, South Delhi offers a perfect blend of tranquility and accessibility. Located near prime areas such as Hauz Khas, Saket, and Greater Kailash, these farmhouses provide a much-needed oasis while being close to the city’s major attractions and business hubs.
             </p>
             <Link href="">
               <button className="flex mb-2 p-2 md:p-2">
@@ -32,10 +32,10 @@ const card = () => {
     backgroundImage: "url('/1.jpg')",
   }}
 >
-            <h1 className="text-[26px] p-2">Organic Vegetables</h1>
+            <h1 className="text-[26px] p-2">Farmhouse in Vasant Kunj
+            </h1>
             <p className="font-light leading-relaxed p-2 md:p-0">
-              Dolor magna ipsum elitr sea erat elitr amet ipsum stet justo
-              dolor, amet lorem diam no duo sed dolore amet diam
+            Vasant Kunj is one of the most sought-after locations for farmhouses in Delhi. Known for its lush greenery, wide open spaces, and proximity to the IGI Airport and major business districts, Vasant Kunj offers an exclusive lifestyle that's both convenient and serene. The area is dotted with upscale farmhouses that feature expansive lawns, private swimming pools, and modern amenities that cater to a luxurious living experience.
             </p>
             <Link href="">
               <button className="flex mb-2 p-2 md:p-0">
