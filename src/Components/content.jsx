@@ -26,7 +26,7 @@ const FArmhouseinsouthdelhi = () => {
         <li className="py-[2px] font-light text-[12px] leading-relaxed">Spacious Living: Enjoy large plots with beautifully landscaped gardens.</li>
         <li className="py-[2px] font-light text-[12px] leading-relaxed">Luxury and Privacy: These properties provide unmatched comfort and exclusivity.</li>
         <li className="py-[2px] font-light text-[12px] leading-relaxed">Prime Locations: Close to business hubs, entertainment centers, and top-notch schools.</li>
-      </ul>
+      </ul> 
       <p className="py-[5px] font-light text-[12px] leading-relaxed">
         Investing in a farmhouse in South Delhi is not just about owning a property; it’s about embracing a lifestyle.
       </p>
