@@ -17,7 +17,7 @@ const FArmhouseinsouthdelhi = () => {
 
     <div className="py-[5px]">
       <h3 className="text-[12px] md:text-[18px] font-bold">
-        Why Choose a Farmhouse in South Delhi? dbnsbd
+        Why Choose a Farmhouse in South Delhi? 
       </h3>
       <p className="py-[5px] font-light text-[12px] leading-relaxed">
         South Delhi is known for its upscale neighborhoods, excellent connectivity, and proximity to essential amenities. Farmhouses in South Delhi offer:
