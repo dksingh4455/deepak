@@ -28,7 +28,7 @@ const FArmhouseinsouthdelhi = () => {
         <li className="py-[2px] font-light text-[12px] leading-relaxed">Prime Locations: Close to business hubs, entertainment centers, and top-notch schools.</li>
       </ul> 
       <p className="py-[5px] font-light text-[12px] leading-relaxed">
-        Investing in a farmhouse in South Delhi is not just about owning a property; it’s about embracing a lifestyle.
+        Investing in a farmhouse in South Delhi is not just about owning a property; it’s about embracing a lifestyle. 
       </p>
     </div>
 
