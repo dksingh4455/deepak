@@ -35,7 +35,7 @@ const card = () => {
             <h1 className="text-[26px] p-2">Farmhouse in Vasant Kunj
             </h1>
             <p className="font-light leading-relaxed p-2 md:p-0">
-            Vasant Kunj is one of the most sought-after locations for farmhouses in Delhi. Known for its lush greenery, wide open spaces, and proximity to the IGI Airport and major business districts, Vasant Kunj offers an exclusive lifestyle that's both convenient and serene. The area is dotted with upscale farmhouses that feature expansive lawns, private swimming pools, and modern amenities that cater to a luxurious living experience.
+            Vasant Kunj is one of the most sought-after locations  for farmhouses in Delhi. Known for its lush greenery, wide open spaces, and proximity to the IGI Airport and major business districts, Vasant Kunj offers an exclusive lifestyle that's both convenient and serene. The area is dotted with upscale farmhouses that feature expansive lawns, private swimming pools, and modern amenities that cater to a luxurious living experience.
             </p>
             <Link href="">
               <button className="flex mb-2 p-2 md:p-0">
