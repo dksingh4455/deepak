@@ -11,7 +11,10 @@ import CLient from "@/components/client";
 
 import Review from "@/components/review";
 import Servicecard from "@/components/servicecard";
+<<<<<<< HEAD
 import Content from "@/components/content"
+=======
+>>>>>>> cc0f8936d1bfc6ac1b958e84a090dabc6aa93d67
 export default function Home() {
   return (
     <>
@@ -33,7 +36,10 @@ export default function Home() {
       <Cardsnew />
       <CLient />
       <Review />
+<<<<<<< HEAD
       <Content/>
+=======
+>>>>>>> cc0f8936d1bfc6ac1b958e84a090dabc6aa93d67
     </>
   );
 }
