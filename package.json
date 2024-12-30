@@ -7,41 +7,23 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-<<<<<<< HEAD
-   
   },
   "dependencies": {
-    "next": "15.0.3",
-    "react": "^18.3.1",
+    "next": "15.1.2",
+    "react": "^19.0.0",
     "react-countup": "^6.5.3",
-    "react-dom": "^18.3.1",
-    "react-icons": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
     "react-intersection-observer": "^9.13.1",
     "swiper": "^11.1.15",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^5.9.1",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17"
-=======
-  },
-  "dependencies": {
-    "next": "15.1.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.4.0",
-    "swiper": "^11.1.15"
-  },
-  "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
     "eslint-config-next": "15.1.2",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
->>>>>>> cc0f8936d1bfc6ac1b958e84a090dabc6aa93d67
+    "tailwindcss": "^3.4.17"
   }
 }

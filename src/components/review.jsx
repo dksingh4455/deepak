@@ -9,19 +9,19 @@ import {
 const Review = () => {
   const teamMembers = [
     {
-      name: "Farmer Name",
+      name: "Farmhouse in South Delhi",
       designation: "Designation",
-      image: "/farmer1.jpg", // Replace with your image path
+      image: "/first.jpg", // Replace with your image path
     },
     {
-      name: "Farmer Name",
+      name: "Farmhouse in Delhi NCR",
       designation: "Designation",
-      image: "/farmer2.jpg", // Replace with your image path
+      image: "/firy2.jpg", // Replace with your image path
     },
     {
-      name: "Farmer Name",
+      name: "Farmhouse in Vasant Kunj",
       designation: "Designation",
-      image: "/farmer3.jpg", // Replace with your image path
+      image: "/first3.jpg", // Replace with your image path
     },
   ];
 
